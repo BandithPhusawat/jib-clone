@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function BannerSide() {
   return (
-    <div className="w-full max-w-[1440px] h-[354px] mx-auto py-6">
+    <div className="w-[1440px] h-[354px] mx-auto py-6">
       <Swiper
         loop={true}
         spaceBetween={-60}
